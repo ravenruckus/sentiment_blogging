@@ -2,6 +2,6 @@
 
 import React from 'react'
 
-const HomePage = () => <p>Home</p>
+const HomePage = () => <p>Home - Add Styled Components</p>
 
 export default HomePage
