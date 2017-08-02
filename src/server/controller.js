@@ -11,5 +11,5 @@ export const homePage = () => ({
 })
 
 export const getTitlePage = (posts: Object) => ({
-  title: { message: posts[0].title },
+  posts: { title: posts[0].title },
 })
