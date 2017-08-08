@@ -7,6 +7,7 @@ import Button from '../component/button'
 
 const mapStateToProps = () => ({
   label: 'Get Title',
+  color: 'red',
 })
 
 const mapDispatchToProps = dispatch => ({
