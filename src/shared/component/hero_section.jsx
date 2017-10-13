@@ -3,8 +3,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import Button from './button'
-import SentimentButton from '../container/sb_button'
-
 
 type Props = {
   mainHeadingText: string,
