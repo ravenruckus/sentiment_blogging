@@ -4,6 +4,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import { APP_NAME } from '../../config'
+import HeroSection from '../../container/hero_section'
 
 const HomePage = () =>
   <div>
@@ -13,7 +14,7 @@ const HomePage = () =>
         { property: 'og:title', content: APP_NAME },
       ]}
     />
-    <p>Home - Add Styled Components & Helmet</p>
+    <HeroSection />
   </div>
 
 export default HomePage

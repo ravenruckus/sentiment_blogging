@@ -16,14 +16,15 @@ import {
 } from './routes'
 
 const theme = {
-  main: 'yellow'
+  main: 'hsl(305, 30%, 30%)',
+  secondary: 'hsl(0, 0, 20%)'
 }
 
 const App = () =>
   <div>
     <Helmet titleTemplate={`%s | ${APP_NAME}`} defaultTitle={APP_NAME} />
-    <Nav />
-    <h1>{APP_NAME}</h1>
+    {/* <Nav />
+    <h1>{APP_NAME}</h1> */}
     <ThemeProvider theme={theme}>
     <Switch>
       <Route exact path={HOME_PAGE_ROUTE} render={() => <HomePage />} />
